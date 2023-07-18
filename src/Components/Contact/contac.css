@@ -1,0 +1,151 @@
+.contact-body {
+    top: 0%;
+    width: 100%;
+    min-height: 110vh;
+    background: #000000;;
+    background-size: cover;
+    padding-top: 90px;
+    margin: 0, auto;
+}
+
+.contentheading {
+    color: white;
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+}
+
+.logo {
+    font-style: none;
+    font-family: blanka;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.social-media{
+    margin-top: 20px;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-media li{
+    padding: 10px;
+    font-size: 40px;
+}
+
+.fa-twitter{
+    color:#00acee;
+}
+
+.fa-facebook{
+    color:#3b5998;
+}
+
+.fa-instagram{
+    background: radial-gradient(
+        circle at 30% 107%, 
+        #fdf497 0%, 
+        #fdf497 5%,
+         #fd5949 45%, 
+         #d6249f 60%, 
+         #285AEB 90%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.middle-part,
+.lower-part{
+    width: 100%;
+    text-align: center;
+}
+
+.middle-part p{
+    padding-top:1%;
+    width: 50%;
+    margin: auto;
+    color:white
+}
+
+.lower-part h1{
+    padding-top: 50px;
+    color:white;
+    text-align: center;
+}
+
+.form-group {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+.form-group1, 
+.form-group2, 
+.form-group3 {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input {
+    margin-top: 5px;
+}
+
+input[type=text], [type=email], textarea {
+    padding: 10px;
+    color: white;
+    box-sizing: border-box;
+    margin-top: 6px;
+}
+
+.submit-btn1 {
+    margin-top: 10px;
+    background-color:yellow;
+    padding: 10px;
+    border: none;
+    border-radius: 50px;
+}
+
+.submit-btn2 {
+    background-color:rgb(234, 91, 91) ;
+    padding: 10px;
+    border: none;
+    border-radius: 50px;
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 900px) {
+    .contentheading {
+      font-size: 30px;
+    }
+  
+    .social-media li {
+      padding: 5px;
+      font-size: 30px;
+    }
+  
+    .middle-part p {
+      width: 100%;
+    }
+    .form-group {
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+        justify-content: center;
+    }
+    .form-group1,
+    .form-group2,
+    .form-group3 {
+      padding: 5px;
+    }
+  }
+  

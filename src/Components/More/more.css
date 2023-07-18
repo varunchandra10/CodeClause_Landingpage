@@ -1,0 +1,53 @@
+.more-page{
+  width: 100%;
+  min-height: 100vh;
+  margin-top: 100px;
+}
+
+.image1,.image2,.image3{
+  width: 100%;
+ min-height: 10vh;
+ padding: 10px;
+}
+
+.lenses{
+  width: 100%;
+  display: flex;
+}
+
+.lens-information{
+  width: 40%;
+}
+
+.lens-information,.lensheading, .lenscontent{
+  width: 80%;
+  margin: auto;
+}
+.lensheading{
+  font-size: 3rem;
+}
+.lenscontent{
+  font-size: 1.5rem;
+}
+.lens{
+  width: 60%;
+}
+
+@media screen and (max-width: 768px) {
+  .lenses{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .lensheading{
+    font-size: 2rem;
+  }
+  .lenscontent{
+    font-size: 0.8rem;
+  }
+  .lens{
+    margin-top: 20px;
+  }
+
+  }

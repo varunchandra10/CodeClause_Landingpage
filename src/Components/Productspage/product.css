@@ -1,0 +1,89 @@
+.products-page{
+  min-height: 100vh;
+  width: 100%;
+}
+
+.products-heading{
+  padding-top: 45px;
+  text-align: center;
+  font-size: 3rem;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.product-card {
+  width: 250px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px none;
+}
+
+.product-details:hover{
+  background-color: #ffdd00;
+  transition: 0.5s ease-in-out;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.product-image {
+  width: 100%;
+  object-fit: cover;
+  filter: drop-shadow(5px 5px 5px #080808);
+}
+
+.product-details {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.product-details h3{
+  font-size: 1.5rem;
+}
+
+.product-details p{
+  font-size: 1rem;
+  color:black;
+}
+
+.link-to-moreproductspage{
+  width: 100%;
+  margin: 40px auto;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+}
+
+.more-products{
+  padding: 10px;
+  border-radius: 25px;
+  color:#080808;
+  text-decoration:none;
+  font-weight:bolder ;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color:#f14f4fce;
+  .fa-arrow-right{
+    display: none;
+  }
+}
+
+
+.more-products:hover{
+  transition: 0.5s ease-in-out;
+  /* padding: 15px; */
+  background-color: transparent;
+  box-shadow: 2px 3px 10px #f14f4fce;
+  color:#080808;
+  align-items: center;
+  .fa-arrow-right{
+    display:inline;
+    font-size: 20px;
+    align-items: center;
+    padding:10px;
+  }
+}

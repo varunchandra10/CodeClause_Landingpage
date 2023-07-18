@@ -1,0 +1,32 @@
+.body {
+  top: 30px;
+  width: 100%;
+  min-height: 100vh;
+  background: url('../assets/camera.jpg');
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  animation: fallFromNav 2s ease-in-out;
+  overflow-x: hidden;
+}
+
+@keyframes fallFromNav {
+  0% {
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+  .body {
+    background-size:cover;
+    background-position:left;
+  }
+}
