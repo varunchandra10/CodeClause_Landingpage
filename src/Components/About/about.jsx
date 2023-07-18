@@ -32,7 +32,7 @@ const About = () => {
     <div className="about" id='about'>
       <div className="about-content">
         <h1>Welcome to Lens Valley</h1>
-        <p>We provide you the best cameras in the World at one Stop with affordable prices</p>
+        <p>We provide you the best cameras in the World with affordable prices</p>
       </div>
       <img src={Rightsideimage} alt="camera" className={`enter-from-right ${imageEntered ? 'entered-from-right' : ''}`} />
     </div>
